@@ -3,12 +3,12 @@
 # ----------------------- #
 
 url: https://fluquid.github.io/ilen-tech/
-title: Ilen Tech Title
-email: joan@ilen-tech.com
-author: Joan O'Sullivan
+title: iLen Technologies
+email: info@ilen-tech.com
+author: Anonymous
 description: > # "Write an awesome description for your new site here. 
-    We help you turn your data into actionable insight.
-copyright: 'Copyright &copy; 2017 Ilen-Tech Ltd. All Rights Reserved.'
+    iLen Tech Description
+copyright: 'Copyright &copy; 2017 iLen Tech Ltd. All Rights Reserved.'
 
 # ----------------------- #
 #    Jekyll & Plugins     #
@@ -35,7 +35,6 @@ defaults:
       layout: "default"
 
 social:
-social:
   - title: twitter
     url: https://twitter.com/
   - title: github
@@ -48,8 +47,8 @@ social:
 
 
 plugins:
-    # - jekyll-sitemap
-    # - jekyll-feed
-    # - jekyll-seo-tag
-    # - jekyll-analytics
-    # - jekyll-twitter-plugin
+    - jekyll-sitemap
+    - jekyll-feed
+    - jekyll-seo-tag
+    - jekyll-analytics
+    - jekyll-twitter-plugin
