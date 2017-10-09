@@ -20,6 +20,10 @@ Located in folder [_features](https://github.com/fluquid/ilen-tech/tree/gh-pages
 
 [our_story.md](https://github.com/fluquid/ilen-tech/blob/gh-pages/our_story.md)
 
+### Index
+
+`index.html` for Header title and subtitle
+
 ### Config
 
 * The config file is located at [_config.yml](https://github.com/fluquid/ilen-tech/blob/gh-pages/_config.yml). It is written in yaml format, but for content edits this is not important.
