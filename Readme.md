@@ -18,11 +18,11 @@ Located in folder '_features'.
 
 ### Story
 
-`TODO`
+`our_story.md`
 
 ### About
 
-`TODO`
+`_config.yaml` - `about_us_desc` and `about_us`
 
 ### Config
 
