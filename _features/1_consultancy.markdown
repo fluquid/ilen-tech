@@ -1,6 +1,6 @@
 ---
 layout: default
-img: ../services/consultancy.png
+img: ../services/consultancy2.png
 category: Services
 title: Consultancy
 short_title: Consultancy
