@@ -171,3 +171,27 @@ footer {
 p.copyright {
     margin: 15px 0 0;
 }
+
+.story_item {
+    background: lightgray;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border: 1px gray solid;
+
+    padding: 10px;
+}
+
+.our-story img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+
+    margin: auto;
+    width: 50%;
+}
+
+#about_us {
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+

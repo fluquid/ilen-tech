@@ -1,3 +1,4 @@
+---
 # ----------------------- #
 #      Main Configs       #
 # ----------------------- #
@@ -33,6 +34,11 @@ defaults:
       path: ""
     values:
       layout: "default"
+  -
+    scope:
+      path: "our_story.md"
+    values:
+      layout: "our_story"
 
 social:
   - title: twitter
@@ -44,6 +50,21 @@ social:
   - title: email
     url: mailto:john@ilen-tech.com
     icon: envelope
+
+
+about_us_desc:
+    - Deep sectoral knowledge
+    - Experienced in the global delivery of large technical programs for Enterprise Customers
+    - Blockchain design and development expertise 
+    - Partnership with local & European universities
+
+about_us:
+    - name: Joan O'Sullivan
+      blurb: BSc Finance, PMP, HDip in Computer Science
+      image: img/about/about_joan.png
+    - name: John O'Reilly
+      image: img/about/about_john.png
+    - name: Jim
 
 
 plugins:

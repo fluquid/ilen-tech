@@ -1,0 +1,30 @@
+<section id="about_us">
+
+    <div class="container">
+
+        <div class="row">
+            <h2>About Us</h2>
+
+            <div class="col-xs-12">
+                {% for desc in site.about_us_desc %}
+                <ul>
+                    <li class="lead">{{ desc }}</li>
+                </ul>
+                {% endfor %}
+            <div class="col-xs-12">
+        </div>
+
+        <div class="row">
+            {% for member in site.about_us %}
+            <div class="col-xs-4">
+                <center><h4>{{ member.name }}</h4></center>
+                <img src="{{member.image}}" class="img-responsive"
+                  style="width: 50%; margin: auto;" />
+                <div style="width: 75%; margin: auto;">
+                    <center><p class="lead">{{ member.blurb }} </p></center>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
