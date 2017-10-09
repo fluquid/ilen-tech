@@ -1,0 +1,55 @@
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
+
+url: http://fluquid.com
+title: Ilen Tech
+email: joan@ilen-tech.com
+author: Joan O'Sullivan
+description: > # "Write an awesome description for your new site here. 
+    We help you turn your data into actionable insight.
+copyright: 'Copyright &copy; 2017 Ilen-Tech Ltd. All Rights Reserved.'
+
+# ----------------------- #
+#    Jekyll & Plugins     #
+# ----------------------- #
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+include: ['_posts', '_features']
+exclude: ['gems', 'vendor']
+collections:
+  - features
+
+# ----------------------- #
+#   3rd Party Settings    #
+# ----------------------- #
+
+defaults:
+  - 
+    scope:
+      path: ""
+    values:
+      layout: "default"
+
+social:
+social:
+  - title: twitter
+    url: https://twitter.com/
+  - title: github
+    url: https://github.com/
+  - title: linkedin
+    url: https://www.linkedin.com/company/
+  - title: email
+    url: mailto:john@ilen-tech.com
+    icon: envelope
+
+
+plugins:
+    # - jekyll-sitemap
+    # - jekyll-feed
+    # - jekyll-seo-tag
+    # - jekyll-analytics
+    # - jekyll-twitter-plugin
