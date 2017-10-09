@@ -1,6 +1,5 @@
 _site
 gems
 .ipynb_checkpoints
-*.jpg
 vendor
 .bundle
